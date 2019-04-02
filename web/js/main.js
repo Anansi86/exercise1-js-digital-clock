@@ -9,7 +9,7 @@ function time()  {
 
     
     hours = ( hours > 12 ) ? hours - 12 : hours;
-    minuets = ( minutes < 10 ? "0" : "" ) + minutes;
+    minutes = ( minutes < 10 ? "0" : "" ) + minutes;
     seconds = ( seconds < 10 ? "0" : "" ) + seconds;
     
     var currentTime= hours + ":" + minutes + ":" + seconds + " " + timeOfDay;
